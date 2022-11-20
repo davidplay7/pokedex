@@ -1,0 +1,47 @@
+a{
+  color: blue;
+  font-size: 30px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.cardContent{
+ width: 35vw;
+ height: 30vh;
+ padding: 1rem;
+ border-radius: 1rem;
+  }
+
+.cardSpace
+{
+  border-radius: 1rem;
+}
+
+.number{
+  display: inline;
+  float: right;
+  filter: brightness(1.1);
+  color: #fff;
+}
+
+
+img{
+  max-width: 100%;
+  height: 70px;
+display: block;
+position: relative;
+margin: auto;
+}
+
+.name{
+  text-transform: capitalize;
+}
+
+.heart{
+  display: inline;
+  float: right;
+  filter: brightness(1.1);
+  color: #fff;
+}
+}
