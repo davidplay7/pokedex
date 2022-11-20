@@ -163,3 +163,20 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.cardsActive{
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: darkred;
+}

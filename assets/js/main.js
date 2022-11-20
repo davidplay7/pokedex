@@ -1,12 +1,15 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
+const cardInfo = document.getElementById('cardInfo')
+
 const maxRecords = 151
 const limit = 10
-let offset = 0;
+let offset = 0
 
 function convertPokemonToLi(pokemon) {
-    return `
+  
+    return  `
         <li class="pokemon ${pokemon.type}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
@@ -28,6 +31,7 @@ function loadPokemonItens(offset, limit) {
         const newHtml = pokemons.map(convertPokemonToLi).join('')
         pokemonList.innerHTML += newHtml
     })
+    
 }
 
 loadPokemonItens(offset, limit)
@@ -46,4 +50,15 @@ loadMoreButton.addEventListener('click', () => {
     }
 })
 
-//Ok
+//pegando o bloco do card do pokemon
+pokemonList.addEventListener('click', () => {
+ cardInfo.innerHTML = (`<div id="cardInfo" class="cardsActive">
+ 
+
+                  </div>`)
+} )
+
+cardInfo.addEventListener('click', () => {
+  cardInfo.innerHTML = (`<div id="cardInfo" class="cards">
+                  </div>`)
+})
