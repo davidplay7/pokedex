@@ -9,7 +9,7 @@ let offset = 0
 function convertPokemonToLi(pokemon) {
   
     return  `
-    <a href="card.html?${pokemon.number}&${pokemon.type}&${pokemon.name}&${pokemon.photo}" class="link" target="_blank">
+    <a href="card.html?${pokemon.number}&${pokemon.type}&${pokemon.name}&${pokemon.photo}" class="link" targe="_blank">
         <li class="pokemon ${pokemon.type}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>

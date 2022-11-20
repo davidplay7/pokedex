@@ -1,5 +1,5 @@
 a{
-  color: blue;
+  color: #fff;
   font-size: 30px;
   text-decoration: none;
   display: block;
@@ -36,6 +36,9 @@ margin: auto;
 
 .name{
   text-transform: capitalize;
+  color: #fff;
+  margin-bottom: .25rem;
+  margin-left:1rem;
 }
 
 .heart{
@@ -44,4 +47,30 @@ margin: auto;
   filter: brightness(1.1);
   color: #fff;
 }
+
+.types
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.type{
+  color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+
+}
+
+
+.cardInfos{
+  text-transform: capitalize;
+  color: black;
+  margin: 1rem;
+  margin-bottom:2rem;
+  margin-left:1rem;
 }

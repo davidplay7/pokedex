@@ -13,7 +13,9 @@
         &larr; <span class="heart">&#9825;</span> 
         </a>
         <span class="name">${itens[2]}</span> 
+        <span class="type">${itens[1]}</span> 
    <span class="number">#${itens[0]}</span>  
 <img src="${itens[3]}"
                         alt="${itens[2]}">
+            
 `);
